@@ -1,0 +1,40 @@
+
+#grad {
+  background-image: linear-gradient(tan,blue);
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  50% {background-color: tan;}
+  70% {background-image: linear-gradient(blue,pink);}
+}
+div.mycontainer {
+    width:100%;
+    overflow:auto;
+  }
+  div.mycontainer div {
+    width:33%;  
+    float:left;
+  }
+  img{
+    width: 100px;
+    border-radius: 50px;
+  }
+  p{
+    margin: 2px; 
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  a:link {
+    color: green;
+  }
+  a:visited {
+    color:white;
+  }
+  a:hover {
+    color: rgb(218, 18, 18);
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    text-decoration: underline;
+  }
